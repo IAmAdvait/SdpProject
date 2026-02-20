@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd 
 
 st.title("My first Steamlist app")
-st.write("streamlit: Hi Arpit")
+st.write("streamlit: Hi Advait")
 st.text("Start")
 
 name = st.text_input("Enter Name")
@@ -49,4 +49,5 @@ import matplotlib.pyplot as plt
 
 fig, ax = plt.subplot()
 ax.plot([1,2,3],[1,4,9])
+
 st.pyplot(fig)
